@@ -1,12 +1,12 @@
-![MCP Toolbox Logo](https://raw.githubusercontent.com/googleapis/genai-toolbox/main/logo.png)
+![MCP Toolbox Logo](https://raw.githubusercontent.com/googleapis/mcp-toolbox/main/logo.png)
 
 # MCP Toolbox SDKs for Javascript
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-The @toolbox-sdk/core package provides a Javascript interface to the [MCP Toolbox]((https://github.com/googleapis/genai-toolbox)) service, enabling you to load and invoke tools from your own applications. It is framework-agnostic and designed to seamlessly integrate with popular orchestration frameworks like Langchain, LlamaIndex and Genkit.
+The @toolbox-sdk/core package provides a Javascript interface to the [MCP Toolbox](https://github.com/googleapis/mcp-toolbox) service, enabling you to load and invoke tools from your own applications. It is framework-agnostic and designed to seamlessly integrate with popular orchestration frameworks like Langchain, LlamaIndex and Genkit.
 
-For detailed guides, authentication examples, and advanced configuration, visit the [JS SDK Core Guide](https://googleapis.github.io/genai-toolbox/sdks/js-sdk/core/).
+For detailed guides, authentication examples, and advanced configuration, visit the [JS SDK Core Guide](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/javascript-sdk/core/).
 
 <!-- TOC ignore:true -->
 - [Supported Environments](#supported-environments)
@@ -65,14 +65,14 @@ quickstart();
 
 ## Usage
 
-The core package provides a framework-agnostic way to interact with your MCP Toolbox server. For detailed guides and advanced configuration, please visit the following sections on our [Documentation Site](https://googleapis.github.io/genai-toolbox/sdks/js-sdk/core/):
+The core package provides a framework-agnostic way to interact with your MCP Toolbox server. For detailed guides and advanced configuration, please visit the following sections on our [Documentation Site](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/javascript-sdk/core/):
 
-- [Transport Protocols](https://googleapis.github.io/genai-toolbox/sdks/js-sdk/core/#transport-protocols)
-- [Loading Tools](https://googleapis.github.io/genai-toolbox/sdks/js-sdk/core/#loading-tools)
-- [Invoking Tools](https://googleapis.github.io/genai-toolbox/sdks/js-sdk/core/#invoking-tools)
-- [Client to Server Authentication](https://googleapis.github.io/genai-toolbox/sdks/js-sdk/core/#client-to-server-authentication)
-- [Authenticating Tools](https://googleapis.github.io/genai-toolbox/sdks/js-sdk/core/#authenticating-tools)
-- [Binding Parameter Values](https://googleapis.github.io/genai-toolbox/sdks/js-sdk/core/#binding-parameter-values)
+- [Transport Protocols](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/javascript-sdk/core/#transport-protocols)
+- [Loading Tools](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/javascript-sdk/core/#loading-tools)
+- [Invoking Tools](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/javascript-sdk/core/#invoking-tools)
+- [Client to Server Authentication](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/javascript-sdk/core/#client-to-server-authentication)
+- [Authenticating Tools](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/javascript-sdk/core/#authenticating-tools)
+- [Binding Parameter Values](https://mcp-toolbox.dev/documentation/connect-to/toolbox-sdks/javascript-sdk/core/#binding-parameter-values)
 
 # Contributing
 
@@ -82,8 +82,8 @@ file for guidelines on how to set up a development environment and run tests.
 # License
 
 This project is licensed under the Apache License 2.0. See the
-[LICENSE](https://github.com/googleapis/genai-toolbox/blob/main/LICENSE) file for details.
+[LICENSE](https://github.com/googleapis/mcp-toolbox/blob/main/LICENSE) file for details.
 
 # Support
 
-If you encounter issues or have questions, check the existing [GitHub Issues](https://github.com/googleapis/genai-toolbox/issues) for the main Toolbox project.
+If you encounter issues or have questions, check the existing [GitHub Issues](https://github.com/googleapis/mcp-toolbox/issues) for the main Toolbox project.

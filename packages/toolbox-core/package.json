@@ -1,6 +1,6 @@
 {
     "name": "@toolbox-sdk/core",
-    "version": "0.3.0",
+    "version": "1.0.0",
     "type": "module",
     "description": "JavaScript Base SDK for interacting with the Toolbox service",
     "license": "Apache-2.0",
@@ -56,18 +56,12 @@
         "prepack": "npx turbo run build --filter=@toolbox-sdk/core"
     },
     "dependencies": {
-        "axios": "^1.13.5",
+        "axios": "^1.15.0",
         "google-auth-library": "^10.0.0",
         "uuid": "^11.1.0"
     },
     "peerDependencies": {
-        "zod": "^3.24.4",
-        "@opentelemetry/api": "^1.9.0"
-    },
-    "peerDependenciesMeta": {
-        "@opentelemetry/api": {
-            "optional": true
-        }
+        "zod": "^3.24.4"
     },
     "devDependencies": {
         "rimraf": "^6.1.2"
